@@ -1,0 +1,270 @@
+<!DOCTYPE HTML>
+<html>
+
+<head><meta name="generator" content="Hexo 3.8.0">
+	<link rel="bookmark" type="image/x-icon" href="/img/logo_miccall.png">
+	<link rel="shortcut icon" href="/img/logo_miccall.png">
+	
+			    <title>
+    汪
+    </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="/css/mic_main.css">
+    <link rel="stylesheet" href="/css/dropdownMenu.css">
+    <meta name="keywords" content="miccall">
+    
+    	<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+	 
+    <noscript>
+        <link rel="stylesheet" href="/css/noscript.css">
+    </noscript>
+    <style type="text/css">
+        body:before {
+          content: ' ';
+          position: fixed;
+          top: 0;
+          background: url('/img/bg.jpg') center 0 no-repeat;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          background-size: cover; 
+        }
+    </style>
+
+			    
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script async type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/jquery.scrollex.min.js"></script>
+    <script src="/js/jquery.scrolly.min.js"></script>
+    <script src="/js/skel.min.js"></script>
+    <script src="/js/util.js"></script>
+    <script src="/js/main.js"></script>
+	
+</head>
+    
+		
+<!-- Layouts -->
+
+
+
+<!--  代码渲染  -->
+<link rel="stylesheet" href="/css/prism_coy.css">
+<link rel="stylesheet" href="/css/typo.css">
+<!-- 文章页 -->
+<body class="is-loading">
+    <!-- Wrapper 外包 s-->
+    <div id="wrapper" class="fade-in">
+        <!-- Intro 头部显示 s -->
+        <!-- Intro 头部显示 e -->
+        <!-- Header 头部logo start -->
+        <header id="header">
+    <a href="/" class="logo">wang</a>
+</header>
+        <!-- Nav 导航条 start -->
+        <nav id="nav" class="special">
+            <ul class="menu links">
+			<!-- Homepage  主页  --> 
+			<li>
+	            <a href="/" rel="nofollow">主页</a>
+	        </li>
+			<!-- categories_name  分类   --> 
+	        
+	        <li class="active">
+	            <a href="#s1">分类</a>
+	                    <ul class="submenu">
+	                        <li>
+	                        <a class="category-link" href="/categories/Shader/">Shader</a>
+	                    </li></ul>
+	        </li>
+	        
+	        <!-- archives  归档   --> 
+	        
+	        
+		        <!-- Pages 自定义   -->
+		        
+		        <li>
+		            <a href="/about/" title="简历">
+		                简历
+		            </a>
+		        </li>
+		        
+		        <li>
+		            <a href="/group/" title="资源">
+		                资源
+		            </a>
+		        </li>
+		        
+		        <li>
+		            <a href="/gallery/" title="团队">
+		                团队
+		            </a>
+		        </li>
+		        
+		        <li>
+		            <a href="/tag/" title="标签">
+		                标签
+		            </a>
+		        </li>
+		        
+
+
+            </ul>
+            <!-- icons 图标   -->
+			<ul class="icons">
+                    
+                    <li>
+                        <a title="github" href="https://github.com/miccall" target="_blank" rel="noopener">
+                            <i class="icon fa fa-github"></i>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a title="500px" href="http://500px.com" target="_blank" rel="noopener">
+                            <i class="icon fa fa-500px"></i>
+                        </a>
+                    </li>
+                    
+			</ul>
+</nav>
+
+        <div id="main">
+            <div class="post_page_title_img" style="height: 25rem;background-image: url();background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;overflow:hidden;">
+                <a href="#" style="padding: 4rem 4rem 2rem 4rem ;"><h2>MYSQL查询语句等知识</h2></a>
+            </div>
+            <!-- Post -->
+            <div class="typo" style="padding: 3rem;">
+                <p>复习<br> 存储中文Unicode编码 utf8<br> 把脚本文件使用客户端提交给服务器<br> 列类型<br>   数值类型<br>    TINYINT/SMALLINT/INT/BIGINT/<br>    FLOAT/DOUBLE/DECIMAL/BOOL<br>   日期时间类型<br>    DATE/TIME/DATETIME<br>   字符串类型<br>    VARCHAR/CHAR/TEXT<br> 列约束<br>   PRIMARY  KEY<br>   UNIQUE  </p>
+<p>1.列约束<br> (1)主键约束——PRIMARY KEY<br> (2)唯一约束——UNIQUE<br> (3)非空约束——NOT NULL<br>   声明了非空约束的列上不能插入NULL<br> (4)默认值约束——DEFAULT<br>   可以使用DEFAULT关键字声明默认值，有两种方式可以应用默认值<br>INSERT INTO xz_laptop_family VALUES(40,’苹果’,DEFAULT);<br>INSERT INTO xz_laptop_family(fid,fname) VALUES(50,’华硕’);<br> (5)检查约束——CHECK<br>  检查约束可以对插入的数据进行检验<br>  CREATE TABLE student(<br>    age TINYINT CHECK(age&gt;=18 AND age&lt;=60 )<br>  );<br>  MySQL不支持检查约束，会降低数据的插入速度。<br> (6)外键约束——FOREIGN KEY<br>  声明了外键约束的列，取值必须在另一个表的主键列上出现过，列类型要保持一致，取值可以是NULL<br>  FOREIGN KEY(familyId)<br>      REFERENCES xz_laptop_family(fid)<br>2.MySQL中的自增列<br>  AUTO_INCREMENT: 自动增长，假入一个列声明了自增列，无需手动赋值，直接设置为NULL，会获取当前的最大值，然后加1插入。<br>  注意：<br>    自增列允许手动赋值<br>    只适用于整数型的主键列上</p>
+<p>练习：创建脚本文件02_tedu.sql，创建数据库tedu，设置编码。<br>  创建部门表dept (did、dname)<br>    10 研发部   20 市场部   30运营部  40 测试部<br>  创建员工表emp(eid、ename、sex、birthday生日、salary工资、deptId所属部门编号)<br>    插入15条记录，有一个员工没有确定部门，有一个部门没有员工。<br>3.简单查询<br> (1)查询特定的列<br>  示例：查询所有员工的姓名、工资、生日<br>  SELECT ename,salary,birthday FROM emp;<br>  练习：查询所有员工的编号，姓名，性别，所属部门编号<br>  SELECT eid,ename,sex,deptId FROM emp;<br> (2)查询所有的列<br>  SELECT <em> FROM emp;<br>  SELECT eid,ename,sex,birthday,salary,deptId FROM emp;<br> (3)给列起别名<br>  示例：查询所有员工的姓名和工资，使用汉字的别名显示<br>  SELECT ename AS 姓名,salary AS 工资 FROM emp;<br>  练习：查询所有员工的编号，姓名，性别，生日，用中文别名<br>  SELECT eid AS 编号,ename AS 姓名,sex AS 性别,birthday AS 生日 FROM emp;<br>  练习：查询所有员工的编号，姓名，使用1个英文字母别名<br>  SELECT eid a,ename b FROM emp;<br>注意：AS关键字是可以省略的，保留空格。<br> (4)只显示不同的记录/合并相同的记录<br>  示例：查询出员工都在哪些部门<br>  SELECT DISTINCT deptId FROM emp;<br>  练习：查询出都有哪些性别的员工<br>  SELECT DISTINCT sex FROM emp;<br> (5)在查询时执行计算<br>  示例：计算2</em>33/47-8+10<br>  SELECT 2<em>33/47-8+10;<br>  练习：查询出所有员工的姓名及其年薪<br>  SELECT ename,salary</em>12 FROM emp;<br>  练习：假设每个员工工资增加500元，年终奖5000元，查询所有员工的姓名及其年薪，要给列起别名<br>  SELECT ename AS 姓名,(salary+500)<em>12+5000 AS 年薪 FROM emp;<br> (6)查询结果集的排序<br>  示例：查询所有的部门，结果按照部门编号升序排序<br>  SELECT </em> FROM dept ORDER BY did ASC; #ascendant<br>  示例：查询所有的部门，结果按照部门编号降序排序<br>  SELECT <em> FROM dept ORDER BY did DESC; #descendant<br>  练习：查询所有员工信息，结果按照工资由大到小排序<br>  SELECT </em> FROM emp ORDER BY salary DESC;<br>  练习：查询所有员工，结果按照年龄由大到小排序<br>  SELECT <em> FROM emp ORDER BY birthday ASC;<br>  练习：查询所有员工，结果按照年龄由小到大排序<br>  SELECT </em> FROM emp ORDER BY birthday DESC;<br>  练习：查询所有员工，结果按照姓名的升序排序<br>  SELECT <em> FROM emp ORDER BY ename;<br>  练习：查询所有员工，结果按照工资降序排序，如果工资相同，按照姓名排序。<br>  SELECT </em> FROM emp ORDER BY salary DESC,ename;<br>  练习：查询所有员工，结果按照性别排序，如果性别相同，按照工资的升序排序。<br>  SELECT <em> FROM emp ORDER BY sex,salary;<br> ORDER BY 可以按照数值、日期/时间、字符串来排序<br> 默认按照ASC升序排序<br> (7)条件查询<br>  示例：查询出编号为5的员工所有信息<br>  SELECT </em> FROM emp WHERE eid=5;<br>  练习：查询出姓名为king的员工的编号，工资，生日。<br>  SELECT eid,salary,birthday FROM emp WHERE ename=’king’;<br>  练习：查询出20号部门下所有员工信息<br>  SELECT <em> FROM emp WHERE deptId=20;<br>  练习：查询出男员工的所有信息<br>  SELECT </em> FROM emp WHERE sex=1;<br>  练习：查询出工资大于等于5000的员工所有信息<br>  SELECT * FROM emp WHERE salary&gt;=5000;</p>
+<blockquote>
+<p>=  &lt;=  &gt;  &lt;  =  !=(不等于)<br>  练习：查询出1991-1-1后出生的员工所有信息<br>  SELECT <em> FROM emp WHERE birthday&gt;’1991-1-1’;<br>  练习：查询出不在10号部门的员工所有信息<br>  SELECT </em> FROM emp WHERE deptId!=10;<br>  练习：查询出没有明确部门的员工所有信息<br>  SELECT <em> FROM emp WHERE deptId IS NULL;<br>  练习：查询出有明确部门的员工所有信息<br>  SELECT </em> FROM emp WHERE deptId IS NOT NULL;<br>  练习：查询出工资大于6000的女员工所有信息<br>  SELECT <em> FROM emp WHERE salary&gt;6000 AND sex=0;<br>  练习：查询出工资在5000~7000之间的员工所有信息<br>  SELECT </em> FROM emp WHERE salary&gt;=5000 AND salary&lt;=7000;<br>  SELECT <em> FROM emp WHERE salary BETWEEN 5000 AND 7000;<br>  练习：查询出工资为5000以下，7000以上的员工所有信息。<br>  SELECT </em> FROM emp WHERE salary<5000 or="" salary="">7000;<br>  SELECT <em> FROM emp WHERE salary NOT BETWEEN 5000 AND 7000;<br>  练习：查询出1990之前和1993以后出生的员工所有信息<br>  SELECT </em> FROM emp WHERE birthday&lt;’1990-1-1’ OR birthday&gt;’1993-12-31’;<br>  练习：查询出1993年出生的员工所有信息<br>  SELECT <em> FROM emp WHERE birthday&gt;=’1993-1-1’ AND birthday&lt;=’1993-12-31’;<br>  练习：查询出10号部门和30号部门员工所有信息<br>  SELECT </em> FROM emp WHERE deptId=10 OR deptId=30;<br>  SELECT <em> FROM emp WHERE deptId IN(10,30);<br>  练习：查询出不在10号和30号部门员工所有信息<br>  SELECT </em> FROM emp WHERE deptId NOT IN(10,30);<br>IS NULL / IS NOT NULL<br>AND / OR<br>BETWEEN…AND…/NOT BETWEEN…AND…<br>IN() / NOT IN()<br>  注意：删除、更改、查询都可以结合条件查询。<br> (8)模糊条件条件<br>  示例：查询出姓名含有字母e的员工所有信息<br>  SELECT <em> FROM emp WHERE ename LIKE ‘%e%’;<br>  练习：查询出姓名中以e结尾的员工所有信息<br>  SELECT </em> FROM emp WHERE ename LIKE ‘%e’;<br>  练习：查询出姓名中倒数第2个字符为e的员工所有信息<br>  SELECT <em> FROM emp WHERE ename LIKE ‘%e_’;<br> SQL中提供了两个模糊查询的字符<br>  %  可以匹配任意多个字符   &gt;=0<br>  _   可以匹配任意一个字符   =1<br> 注意：以上两个匹配不能和=使用，必须使用LIKE关键字<br> (9)分页查询<br>   假如查询的结果集中有太多的数据，一次显示不完，可以分页显示。<br>   需要有两个条件：当前的页码、每页的数据量<br>   SELECT </em> FROM emp  LIMIT start,count;<br>  start: 是一个数字，从结果集中的哪1条开始读取，第1条称为0.<br>  count: 是一个数字，最多读取的行数<br> 每页开始的算法<br>  start=(页码-1)<em>count<br> 假设每一页显示5条记录<br> 第1页：SELECT </em> FROM emp LIMIT 0,5;<br> 第2页：SELECT <em> FROM emp LIMIT 5,5;<br> 第3页：SELECT </em> FROM emp LIMIT 10,5;<br> 第4页：SELECT <em> FROM emp LIMIT 15,5;<br> 假设每一页显示6条记录<br> 第1页：SELECT </em> FROM emp LIMIT 0,6;<br> 第2页：SELECT * FROM emp LIMIT 6,6;<br>课后任务：<br>  (1)复习今天内容，删除代码，保留注释重新编写代码<br>  (2)练习：<br>     查询出工资为8000以上的女员工的姓名、性别、生日，结果集按照工资降序排序，取前3个人。<br>select ename,sex,birthday,salary from emp where sex=0 and salary&gt;8000 order by salary desc limit 0,3;<br>  (3)查看“学子商城”表结构图</5000></p>
+</blockquote>
+
+            </div>
+
+            <!-- Post Comments -->
+            
+    <!-- 使用 DISQUS_CLICK -->
+<div id="disqus-comment">
+    <div id="disqus_thread"></div>
+
+<!-- add animation -->
+<style>
+	.disqus_click_btn {
+            line-height: 30px;
+            margin: 0;
+            min-width: 50px;
+            padding: 0 14px;
+            display: inline-block;
+            font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            text-transform: uppercase;
+            letter-spacing: 0;
+            overflow: hidden;
+            will-change: box-shadow;
+            transition: box-shadow .2s cubic-bezier(.4, 0, 1, 1), background-color .2s cubic-bezier(.4, 0, .2, 1), color .2s cubic-bezier(.4, 0, .2, 1);
+            outline: 0;
+            cursor: pointer;
+            text-decoration: none;
+            text-align: center;
+            vertical-align: middle;
+            border: 0;
+            background: rgba(158, 158, 158, .2);
+            box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+            color: #fff;
+            background-color: #7EC0EE;
+            text-shadow: 0
+        }
+</style>
+	
+<div class="btn_click_load" id="disqus_bt"> 
+    <button class="disqus_click_btn">点击查看评论</button>
+</div>
+
+<!--
+<script type="text/javascript">
+$('.btn_click_load').click(function() {
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'http-miccall-tech'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+
+    document.getElementById('disqus_bt').style.display = "none";
+});
+</script>
+-->
+<script type="text/javascript">
+    var disqus_config = function () {
+        this.page.url = 'http://yoursite.com/2018/12/05/mysqlselect/';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'http://yoursite.com/2018/12/05/mysqlselect/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+</script>
+
+<script type="text/javascript">
+    $('.btn_click_load').click(function() {  //click to load comments
+        (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document;
+            var s = d.createElement('script');
+            s.src = '//http-miccall-tech.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', + new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+        $('.btn_click_load').css('display','none');
+    });
+</script>
+</div>
+<style>
+    #disqus-comment{
+        background-color: #eee;
+        padding: 2pc;
+    }
+</style>
+
+
+        </div>
+        <!-- Copyright 版权 start -->
+                <div id="copyright">
+            <ul>
+                <li>&copy;Powered By <a href="https://hexo.io/zh-cn/" style="border-bottom: none;">hexo</a></li>
+                <li>Design: <a href="http://miccall.tech " style="border-bottom: none;">miccall</a></li>
+            </ul>
+            
+                <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+			
+        </div>
+    </div>
+</body>
+
+
+
+ 	
+</html>
